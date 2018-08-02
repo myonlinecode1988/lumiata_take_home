@@ -86,13 +86,13 @@ def main():
     print '-----------------------------------------------------------------'
     print 'Total number of valid patients is %d' % total_valid_patients
     print 'Length of patient timeline: Maximum = %d' % patient_timeline[-1]
-    print 'Length of patient timeline: Minimun = %d' % patient_timeline[0]
+    print 'Length of patient timeline: Minimum = %d' % patient_timeline[0]
     print 'Length of patient timeline: Median = %f' \
           % GetMedian(patient_timeline)
     print 'Count of males is %d and females is %d' \
           % (count_males, count_females)
     print 'Length of patient age: Maximum = %d' % patient_age[-1]
-    print 'Length of patient age: Minimun = %d' % patient_age[0]
+    print 'Length of patient age: Minimum = %d' % patient_age[0]
     print 'Length of patient age: Median = %f' % GetMedian(patient_age)
     print '-----------------------------------------------------------------'
 
