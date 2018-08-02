@@ -1,0 +1,13 @@
+[
+  "tests/test_sample.py::test_IsValidId", 
+  "tests/test_sample.py::test_IsValidDate", 
+  "tests/test_sample.py::test_IsValidGender", 
+  "tests/test_sample.py::test_IsValidCodeVersion", 
+  "tests/test_sample.py::test_IsValidCode", 
+  "tests/test_sample.py::test_IsInvalidDemo", 
+  "tests/test_sample.py::test_FilterEvents", 
+  "tests/test_sample.py::test_GetSystem", 
+  "tests/test_sample.py::test_GetEvents", 
+  "tests/test_sample.py::test_GetPatientTimeline", 
+  "tests/test_sample.py::test_GetMedian"
+]

@@ -1,0 +1,1 @@
+{"birth_date": "1972-09-04", "gender": "M", "events": [{"date": "2013-05-20", "code": "272.4", "system": "http://hl7.org/fhir/sid/icd-9-cm"}, {"date": "2013-04-20", "code": "493.90", "system": "http://hl7.org/fhir/sid/icd-9-cm"}, {"date": "2013-04-01", "code": "V70.0", "system": "http://hl7.org/fhir/sid/icd-9-cm"}]}
