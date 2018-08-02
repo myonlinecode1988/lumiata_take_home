@@ -5,7 +5,7 @@ To run the program that does the join and gets the required statistics.
 ```
 python main.py -demo ./demo.psv  -events ./events.psv
 ```
-The ouput directory is `./out`. For more options use
+The ouput directory is `./out` (which contains all <patient_id>.json). For more options use
 ```
 python main.py --help
 ```
