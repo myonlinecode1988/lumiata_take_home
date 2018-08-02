@@ -5,6 +5,7 @@ To run the program that does the join and gets the required statistics.
 ```
 python main.py -demo ./demo.psv  -events ./events.psv
 ```
+
 The ouput directory is `./out` (which contains all <patient_id>.json). For more
 options use
 ```
@@ -55,5 +56,3 @@ Length of patient age: Maximum = 33620
 Length of patient age: Minimun = 750
 Length of patient age: Median = 22933.000000
 ```
-
-
