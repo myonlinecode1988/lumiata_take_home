@@ -45,7 +45,9 @@ These important files are
 Total number of valid patients is 352
 Length of patient timeline: Maximum = 984
 Length of patient timeline: Minimun = 0
-Length of patient timeline: Median = 0.000000
+Length of patient timeline: Median = 0.000000 
+(This is because most patients have single valid visits 
+which are counted as zero days)
 Count of males is 162 and females is 190
 Length of patient age: Maximum = 33620
 Length of patient age: Minimun = 750
