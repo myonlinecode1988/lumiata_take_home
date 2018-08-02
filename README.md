@@ -22,6 +22,7 @@ These important files are
 * `DemoEventsJoin/app.py` : These contains all the functions. Most functions have unit tests associated with them (except I/O functions)
 * `tests/test_sample.py` : Contains are the tests.
 * `main.py` : Does the join and measures required statistics.
+* `./out` : Contains seperate JSON with each json have filename <patient_id>.json
 ```
 .
 ├── DemoEventsJoin
@@ -30,6 +31,10 @@ These important files are
 ├── demo.psv
 ├── events.psv
 ├── main.py
+├── out
+│   ├── id-1011.json
+│   ├── id-1019.json
+│   ├── ............
 ├── requirements.txt
 └── tests
     └── test_sample.py
