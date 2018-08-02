@@ -5,13 +5,15 @@ To run the program that does the join and gets the required statistics.
 ```
 python main.py -demo ./demo.psv  -events ./events.psv
 ```
-The ouput directory is `./out` (which contains all <patient_id>.json). For more options use
+The ouput directory is `./out` (which contains all <patient_id>.json). For more
+options use
 ```
 python main.py --help
 ```
 
 ## Unit Testing
-I use pytest (may need to be installed). All the tests are in `tests/test_sample.py`
+I use pytest for testing (may need to be installed). All the tests are in
+`tests/test_sample.py`
 To run the tests:
 ```
 pytest
@@ -46,8 +48,8 @@ Total number of valid patients is 352
 Length of patient timeline: Maximum = 984
 Length of patient timeline: Minimun = 0
 Length of patient timeline: Median = 0.000000 
-(This is because most patients have single valid visits 
-which are counted as zero days)
+(This is because most patients have single 
+valid visits which are counted as zero days)
 Count of males is 162 and females is 190
 Length of patient age: Maximum = 33620
 Length of patient age: Minimun = 750
