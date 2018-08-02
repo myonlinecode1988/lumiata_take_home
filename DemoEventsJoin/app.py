@@ -12,30 +12,6 @@ import json
 import datetime as dt
 
 
-def LoadPsv(
-    file_name,
-    header=False,
-    DELIM='|',
-        QUOTECHAR='"'):
-
-    f = open(file_name, 'rb')
-    csvReader = csv.reader(f, delimiter=DELIM, quotechar=QUOTECHAR)
-
-    if header:
-        headerLine = csvReader.next()
-
-    data = []
-    for row in csvReader:
-        data.append(row)
-
-    f.close()
-
-    if header:
-        return (headerLine, data)
-    else:
-        return data
-
-
 def SetOutputDirectory(args):
     """Setup output directory. If cannot mkdir or path not supplied
     then use ./out
@@ -83,7 +59,11 @@ def LoadPsvFile(file_name, key, dups_allow):
     3) dups_allow: Do we allow duplicate keys? (primary keys?)
     Returns header,Hashmap(Key:[row0,row1,...])"""
 
-    (header, data) = LoadPsv(file_name, header=True, DELIM='|')
+    data = []
+    with open(file_name) as f:
+        header = next(f).strip().split('|')
+        for line in f:
+            data.append(line.strip().split('|'))
 
     # Index of 'key'
 
